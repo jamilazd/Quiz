@@ -1,3 +1,12 @@
+//create a variable for the quiz, submit and results (DONE)
+// create an event listener 
+// create a build quiz function 
+// create a show results function 
+
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+
 
 const myQuestions = [
 	{
