@@ -9,19 +9,22 @@ body {
     background-color: whitesmoke; 
     line-height: 0.8cm;
     margin: 0 auto;
-    border-width: thick; 
-    box-shadow: 10px 10px 5px rgb(187, 184, 184);
+    border-width: thick;
     border-style: inset;
+    border-color:rgb(238, 174, 163); 
+    box-shadow: 10px 10px 5px rgb(210, 180, 141);
     padding: 50px 35px 50px 35px; 
     max-width: 840px;
 }
 
 h1 {
     font-family:'Merriweather', serif;
-    font-size: 40px; 
+    font-size: 60px; 
     font-weight: bold; 
     text-align: center; 
-    color:#000000; 
+    color:#df9a9a; 
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #f5c4aa;
 
 }
 
@@ -38,8 +41,9 @@ h1 {
     font-family: 'Merriweather', serif; 
     font-size: 15px; 
     font-weight: bold; 
-    color:   ; 
-    background-color: ;
+    color: ; 
+    background-color: #df9a9a; 
     padding: 15px 15px 15px 15px;
-    box-shadow: 10px 10px 5px rgb(187, 184, 184);
+    border-color: rgb(238, 174, 163); 
+    box-shadow: 10px 10px 5px rgb(210, 180, 141);
 }
