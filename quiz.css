@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); 
+
+html {
+    background-image: url('food.png'); 
+}
+
+
+body {
+    background-color: whitesmoke; 
+    line-height: 0.8cm;
+    margin: 0 auto;
+    border-width: thick; 
+    box-shadow: 10px 10px 5px rgb(187, 184, 184);
+    border-style: inset;
+    padding: 50px 35px 50px 35px; 
+    max-width: 840px;
+}
+
+h1 {
+    font-family:'Merriweather', serif;
+    font-size: 40px; 
+    font-weight: bold; 
+    text-align: center; 
+    color:#000000; 
+
+}
+
+#quiz {
+    font-family:'Merriweather', serif;
+    font-size: 18px;
+    color: #000000; 
+    text-align: left; 
+    padding: 15px 15px 15px 15px;
+
+}
+
+#submit {
+    font-family: 'Merriweather', serif; 
+    font-size: 15px; 
+    font-weight: bold; 
+    color:   ; 
+    background-color: ;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 5px rgb(187, 184, 184);
+}
