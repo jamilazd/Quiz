@@ -1,12 +1,34 @@
 //create a variable for the quiz, submit and results (DONE)
-// create an event listener 
-// create a build quiz function 
-// create a show results function 
+// create an event listener addEventListener()
+// create a build quiz function  function buildQuiz() {}
+// create a show results function  function showResults(){}
+
+
+
+
+
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+//console.log('quiz',quizContainer); 
+//console.log('submit button', submitButton); 
+submitButton.addEventListener('click', () => {
+	console.log('Hey')         
+	const paragraph = document.createElement('h2');
+	const textGreeting = document.createTextNode('Hello');  
+	paragraph.appendChild(textGreeting);
+	console.log('1', paragraph);
+	console.log('2', textGreeting);
+	
+	const appendedText = paragraph.appendChild(textGreeting) 
+	console.log('3', appendedText); 
 
+	document.body.insertBefore(appendedText, submitButton); 
+
+
+
+}); 
 
 const myQuestions = [
 	{

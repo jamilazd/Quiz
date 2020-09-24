@@ -7,22 +7,23 @@ html {
 
 
 body {
-    background-image:url('background.png'); 
+    background-image:url('background1.png'); 
     line-height: 0.8cm;
     margin: 0 auto;
-    border-width: 5px;
-    border-style: inset;
+    border-width: 7px;
+    border-style: double; 
     border-radius: 50px; 
-    border-color: #fe8c62;  
-    padding: 50px 60px 50px 60px; 
+    border-color: #933300;  
+    padding: 60px 100px 0px 100px; 
     max-width: 840px;
 }
 
+
 #pic1 {
-    width: 65px; 
+    width: 80px; 
     position: relative; 
-    bottom: 122px;  
-    left: 110px;  
+    bottom: 230px;  
+    left: 40px;  
     border-width: 2px; 
     border-style: solid;
     border-color: #933300; 
@@ -31,26 +32,36 @@ body {
 }
 
 #pic2 {
-    width: 65px; 
+    width: 80px; 
     position: relative; 
-    bottom: 118px;  
-    left: 595px;  
+    bottom: 230px;  
+    left: 630px;  
     border-width: 2px; 
     border-style: solid;
     border-color: #933300; 
     border-radius: 50px; 
+
 }
 
 
 h1 {
+    background-image:url('background.png'); 
     font-family: 'Playfair Display', serif;
-    font-size: 90px; 
+    font-size: 110px; 
     text-align: center; 
-    color:#fe8c62;  
-    padding: 5px 0px 10px 0px ; 
-    -webkit-text-stroke-width: 1px;
+    color:#fe8c62;   
+    box-shadow: 10px 10px 5px rgb(210, 180, 141);
+    border-width: 2px;
+    border-style: inset; 
+    border-color: #933300; 
+    border-radius: 50px; 
+    padding: 50px 0px 50px 0px; 
+    position: relative; 
+    bottom: 50px; 
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #933300;
-
+   
+   
 }
 
 u {
@@ -58,14 +69,17 @@ u {
 }
 
 #quiz {
+    background-image:url('background.png'); 
     font-family:'Merriweather', serif;
     font-size: 18px;
     color: #000000; 
     text-align: left; 
-    padding: 20px 30px 15px 30px;
+    padding: 30px 30px 60px 50px;
     position: relative; 
-    bottom: 100px; 
-    background-color: #fee2d7; 
+    bottom: 200px; 
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #933300; 
     border-radius: 50px; 
     box-shadow: 10px 10px 5px rgb(210, 180, 141);
 
@@ -74,15 +88,19 @@ u {
 
 #submit {
     font-family: 'Playfair Display', serif;
-    font-size: 20px; 
+    font-size: 33px; 
     font-weight: bold; 
-    color: #933300; 
-    background-color: #fca686; 
-    padding: 15px 15px 15px 15px;
+    color: #933300;
+    background-image:url('foods.png'); 
+    padding: 20px 20px 20px 20px;
     position: relative;
-    bottom: 80px; 
-    border-color: #fe8c62; 
+    bottom: 170px; 
+    left: 320px; 
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #933300;
     border-radius: 50px; 
     box-shadow: 10px 10px 5px rgb(210, 180, 141);
+    
 }
 
