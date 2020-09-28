@@ -3,16 +3,11 @@
 // create a build quiz function  function buildQuiz() {}
 // create a show results function  function showResults(){}
 
+/* Experimenting: 
 
-
-
-
-
-const quizContainer = document.getElementById('quiz');
-const resultsContainer = document.getElementById('results');
-const submitButton = document.getElementById('submit');
 //console.log('quiz',quizContainer); 
 //console.log('submit button', submitButton); 
+
 submitButton.addEventListener('click', () => {
 	console.log('Hey')         
 	const paragraph = document.createElement('h2');
@@ -25,10 +20,14 @@ submitButton.addEventListener('click', () => {
 	console.log('3', appendedText); 
 
 	document.body.insertBefore(appendedText, submitButton); 
-
-
-
 }); 
+*/
+
+
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+
 
 const myQuestions = [
 	{
