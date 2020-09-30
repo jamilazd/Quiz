@@ -14,8 +14,8 @@ body {
     border-style: double; 
     border-radius: 50px; 
     border-color: #933300;  
-    padding: 60px 100px 0px 100px; 
-    max-width: 840px;
+    padding: 30px 100px 0px 100px; 
+    max-width: 950px;
 }
 
 
@@ -47,7 +47,7 @@ body {
 h1 {
     background-image:url('background.png'); 
     font-family: 'Playfair Display', serif;
-    font-size: 110px; 
+    font-size: 150px; 
     text-align: center; 
     color:#fe8c62;   
     box-shadow: 10px 10px 5px rgb(210, 180, 141);
@@ -55,28 +55,24 @@ h1 {
     border-style: inset; 
     border-color: #933300; 
     border-radius: 50px; 
-    padding: 50px 0px 50px 0px; 
+    padding: 80px 70px 80px 70px; 
     position: relative; 
-    bottom: 50px; 
+    bottom: 10px; 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #933300;
-   
-   
+
 }
 
-u {
-    color: #933300; 
-}
 
-#quiz {
+.quiz {
     background-image:url('background.png'); 
     font-family:'Merriweather', serif;
     font-size: 18px;
     color: #000000; 
     text-align: left; 
-    padding: 30px 30px 60px 50px;
+    padding: 30px 50px 60px 50px;
     position: relative; 
-    bottom: 200px; 
+    bottom: 5px; 
     border-width: 2px; 
     border-style: solid;
     border-color: #933300; 
