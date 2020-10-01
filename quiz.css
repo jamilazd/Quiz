@@ -14,7 +14,6 @@ body {
 
 }
 
-
 #pic1 {
     width: 110px; 
     position: relative; 
@@ -70,21 +69,41 @@ h1 {
 }
 
 .submit {
-    
+    background-color: #fe8c62;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px; 
+    color:   ; 
+    text-align: center; 
+    padding: 15px;
+    position: relative; 
+    left: 30px; 
+    border-width: 2px; 
+    border-style: solid;
+    border-radius: 50px;
+    border-color:#933300; 
+
 }
+
 
 .resultsOverlay {
   background-image:url('food11.png'); 
+  width: 900px;
+  height: 630px;
+  padding: 0px, 10px, 0px, 10px;
+  position: relative;
+  top: 300px; 
+  left: 650px; 
   font-family: 'Playfair Display', serif;
-  font-size: 34px; 
+  font-size: 31px; 
   font-weight: bold; 
   color:#6C2702;
   text-align: center;
-  position: relative;
-  bottom: 500px; 
-  left: 800px; 
+  line-height: 0.5em; 
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #6C2702; 
   box-shadow: 10px 10px 5px rgb(210, 180, 141);
     
 }
