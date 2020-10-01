@@ -78,12 +78,11 @@ function createQuiz () {
 createQuiz()
 
 //parameters must include type of event to listen for and function we want to call
-submitButton.addEventListener('click', createResults)
-
+//submitButton.addEventListener('click', createResults)
 
 
 //experiment try a different approach 
-/* const myResults = [
+const myResults = [
 
     {
         question: 'Gruyere is a cheese from which country?',
@@ -117,7 +116,8 @@ submitButton.addEventListener('click', createResults)
 
 ], 
 
-function createResults() {
+
+createResults = () => {
     const allTheResults = []; 
     for (const results of myResults) {
         allTheResults.push(
@@ -133,7 +133,7 @@ function createResults() {
   
 } 
 
-createResults()*/ 
+createResults()
 
 
 
