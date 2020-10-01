@@ -1,5 +1,6 @@
 const quizContainer = document.querySelector(".quiz"); 
 const resultsContainer = document.querySelector(".resultsOverlay"); 
+const submitButton = document.querySelector(".submit");
 
 
 const myQuestions = [
@@ -72,10 +73,10 @@ function createQuiz () {
 createQuiz()
 
 
-/*parameters must include type of event to listen for and function we want to call
 
-submitButton.addEventListener('click', createResults)
-const submitButton = document.querySelector(".submit")*/
+
+
+
 
 
 const myResults = [
@@ -128,8 +129,8 @@ createResults = () => {
  resultsContainer.innerHTML = allTheResults.join('')  
   
 } 
+submitButton.addEventListener('click', createResults); 
 
-createResults()
 
 //I will store results in a seperate js.file and import them into index.js 
 
