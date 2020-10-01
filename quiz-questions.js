@@ -4,9 +4,9 @@ const myQuestions = [
 
 	{
 		question: 'Gruyere is a cheese from which country?',
-		answerA: 'Switzerland',
-		answerB: 'Austria',
-        answerC: 'France',
+		answerA:  'Switzerland',
+		answerB:  'Austria',
+        answerC:  'France',
         
     },
     

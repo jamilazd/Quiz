@@ -1,17 +1,11 @@
-//Create an array of objects for the quiz questions (DONE)
-//Loop through this array and render the questions dynamically with js (DONE)
-//Create an event listener for clicking submit results button ()
-//On click of submit button, display quiz results via showResults function ()
-
 const quizContainer = document.querySelector(".quiz"); 
-const resultsContainer = document.querySelector(".results"); 
-const submitButton = document.querySelector(".submit"); 
+const resultsContainer = document.querySelector(".resultsOverlay"); 
 
 
 const myQuestions = [
 
 	{
-		question: 'Gruyere is a cheese from which country?',
+		question:'Gruyere is a cheese from which country?',
 		answerA: 'Switzerland',
 		answerB: 'Austria',
         answerC: 'France',
@@ -77,11 +71,13 @@ function createQuiz () {
 
 createQuiz()
 
-//parameters must include type of event to listen for and function we want to call
-//submitButton.addEventListener('click', createResults)
+
+/*parameters must include type of event to listen for and function we want to call
+
+submitButton.addEventListener('click', createResults)
+const submitButton = document.querySelector(".submit")*/
 
 
-//experiment try a different approach 
 const myResults = [
 
     {
@@ -122,7 +118,7 @@ createResults = () => {
     for (const results of myResults) {
         allTheResults.push(
            `<div class="results"> 
-               <p>${results.question}</p>
+               <hr><p>${results.question}</p>
                <p>${results.correctAnswer}</p>
            </div>`
         ); 
@@ -134,6 +130,8 @@ createResults = () => {
 } 
 
 createResults()
+
+//I will store results in a seperate js.file and import them into index.js 
 
 
 
