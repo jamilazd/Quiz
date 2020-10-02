@@ -9,6 +9,7 @@ const myQuestions = [
 		answerA:  'Switzerland',
 		answerB:  'Austria',
         answerC:  'France',
+        correctAnswer: 'C', 
         
     },
     
@@ -17,6 +18,7 @@ const myQuestions = [
         answerA: 'King Oyster',
         answerB: 'Chicken of the woods',
         answerC: `Lion's mane`, 
+        correctAnswer: 'B', 
 
     },
     
@@ -25,7 +27,7 @@ const myQuestions = [
         answerA: 'South Africa',
         answerB: 'Ethiopia',
         answerC: 'Kenya', 
-		correctAnswer: 'a', 
+		correctAnswer: 'A', 
 
     }, 
 
@@ -34,6 +36,7 @@ const myQuestions = [
         answerA: 'Picnic',
         answerB: 'Double Decker',
         answerC: 'Toblerone', 
+        correctAnswer: 'B',
 
     },
 
@@ -42,11 +45,11 @@ const myQuestions = [
         answerA: 'Poppy',
         answerB: 'Orchid',
         answerC: 'Crocus',
+        correctAnswer: 'C',
 
     }, 
 
 ];
-
 
 
 function createQuiz () {
@@ -73,50 +76,14 @@ function createQuiz () {
 createQuiz()
 
 
-
-const myResults = [
-
-    {
-        question: 'Gruyere is a cheese from which country?',
-        correctAnswer: 'c: France',
-    }, 
-    
-    {
-        question: 'Which of these is NOT a type of mushroom?',
-        correctAnswer: 'b: Chicken of the Woods',
-    },
-
-
-    {
-        question: 'Bobotie is the national dish of which country?', 
-        correctAnswer: 'a: South Africa',
-
-    }, 
-        
-    {
-        question: 'Which of these chocolate bars does NOT contain nuts?', 
-        correctAnswer: 'b: Double Decker', 
-
-    }, 
-
-    { 
-        question: 'Which flower does the spice Saffron come from?',
-        correctAnswer: 'c: Crocus'
-
-    }, 
- 
-
-], 
-
-
 createResults = () => {
     const allTheResults = []; 
-    for (const results of myResults) {
+    for (const {question,correctAnswer} of myQuestions) {
         allTheResults.push(
-           `<div class="results"> 
-               <hr><p>${results.question}</p>
-               <p>${results.correctAnswer}</p>
-           </div>`
+           `<div>
+               <p>${question}</p>
+               <p>${correctAnswer}</p>
+          </div>`
         ); 
            
     }
