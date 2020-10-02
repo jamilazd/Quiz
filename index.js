@@ -2,14 +2,13 @@ const quizContainer = document.querySelector(".quiz");
 const resultsContainer = document.querySelector(".resultsOverlay"); 
 const submitButton = document.querySelector(".submit");
 
-
 const myQuestions = [
 
 	{
-		question:'Gruyere is a cheese from which country?',
-		answerA: 'Switzerland',
-		answerB: 'Austria',
-        answerC: 'France',
+		question: 'Gruyere is a cheese from which country?',
+		answerA:  'Switzerland',
+		answerB:  'Austria',
+        answerC:  'France',
         
     },
     
@@ -47,7 +46,8 @@ const myQuestions = [
     }, 
 
 ];
- 
+
+
 
 function createQuiz () {
     const allTheQuestions = []; 
@@ -55,11 +55,11 @@ function createQuiz () {
         allTheQuestions.push(
            `<div class ="quiz">
                 <p>${questions.question}</p>
-                <input type="radio" id="country1" name="country" value="Switzerland">
+                <input type="checkbox" id="country1" name="country" value="Switzerland">
                 <label for="country1">${questions.answerA}</label>
-                <input type="radio" id="country2" name="country" value="Austria">
+                <input type="checkbox" id="country2" name="country" value="Austria">
                 <label for="country2">${questions.answerB}</label><br>
-                <input type="radio" id="country3" name="country" value="France">
+                <input type="checkbox" id="country3" name="country" value="France">
                 <label for="country3">${questions.answerC}</label>
             </div>`
         ); 
@@ -71,11 +71,6 @@ function createQuiz () {
 }
 
 createQuiz()
-
-
-
-
-
 
 
 
@@ -132,8 +127,6 @@ createResults = () => {
 submitButton.addEventListener('click', createResults); 
 
 
-//I will store results in a seperate js.file and import them into index.js 
-
-
+//I will store questions in a seperate js.file and import them into index.js 
 
 
