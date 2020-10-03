@@ -86,7 +86,7 @@ h1 {
 
 
 .resultsOverlay {
-  background-image:url('food11.png'); 
+  background-image:url('background1.png'); 
   width: 900px;
   height: 630px;
   padding: 0px, 10px, 0px, 10px;
@@ -100,11 +100,7 @@ h1 {
   text-align: center;
   line-height: 0.5em; 
   transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  border-style: dashed;
-  border-width: 2px;
-  border-color: #6C2702; 
-  box-shadow: 10px 10px 5px rgb(210, 180, 141);
+  -ms-transform: translate(-50%,-50%); 
     
 }
 
