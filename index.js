@@ -95,8 +95,6 @@ createResults = () => {
 submitButton.addEventListener('click', createResults); 
 
 
-
-
 /*
 function myFunction() {
     document.querySelector(".test").style.color = "red";
