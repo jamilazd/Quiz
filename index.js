@@ -95,22 +95,33 @@ createResults = () => {
 submitButton.addEventListener('click', createResults); 
 
 
-/*
-function myFunction() {
-    document.querySelector(".test").style.color = "red";
-    console.log('query selector', document.querySelector(".test")); 
-    console.log('query selectorAll', document.querySelectorAll(".test"));
+
+
+
+/*makeGreen = () => {
+    for(const {correctAnswer} of myQuestions) {
+        console.log(`${correctAnswer}`)
+    }
+}*/ 
+
+//submitButton.addEventListener('click', makeGreen); 
+//document.querySelector().style.color = "#ff0000";
+
+
+
+
+    
+   
+
+
+
+
+/* function myFunction() {
+    document.querySelector('.test').style.color = "red";
 }
 submitButton.addEventListener('click', myFunction); 
-  
+*/ 
 
 
 
-makeBoxesGreen = () => {
-    const greenBox = []; 
-    for (const {correctAnswer} of myQuestions) {
-       
-    }
 
-} 
-*/
