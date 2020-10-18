@@ -1,5 +1,5 @@
 const quizContainer = document.querySelector(".quiz"); 
-const resultsContainer = document.querySelector(".resultsOverlay"); 
+const resultsContainer = document.querySelector(".modal-content"); 
 const submitButton = document.querySelector(".submit");
 
 const myQuestions = [
@@ -56,44 +56,63 @@ function createQuiz () {
     const allTheQuestions = []; 
     for (const questions of myQuestions) {
         allTheQuestions.push(
-           `<div class ="quiz">
-                <p>${questions.question}</p>
-                <input type="checkbox" id="country1" name="country" value="Switzerland">
-                <label for="country1">${questions.answerA}</label>
-                <input type="checkbox" id="country2" name="country" value="Austria">
-                <label for="country2">${questions.answerB}</label><br>
-                <input type="checkbox" id="country3" name="country" value="France">
-                <label for="country3">${questions.answerC}</label>
-            </div>`
+           `<div>
+             <p>${questions.question}</p>
+             <input type="checkbox" name="checkbox" value="Answer1">
+             <label for="checkbox" class="test" onclick="myFunction()">${questions.answerA}</label>
+
+             <input type="checkbox" name="checkbox" value="Answer2">
+             <label for="checkbox" onclick="myFunction()">${questions.answerB}</label><br>
+
+             <input type="checkbox" name="checkbox" value="Answer3">
+             <label for="checkbox">${questions.answerC}</label> 
+           </div>`
         ); 
            
     }
 
-    quizContainer.innerHTML = allTheQuestions.join('')  
+   quizContainer.innerHTML = allTheQuestions.join('')  
   
 }
 
-createQuiz()
+createQuiz() 
 
 
 createResults = () => {
     const allTheResults = []; 
     for (const {question,correctAnswer} of myQuestions) {
         allTheResults.push(
-           `<div>
+           `<div class="modal-content">
                <p>${question}</p>
                <p>${correctAnswer}</p>
           </div>`
-        ); 
-           
+        );     
     }
 
- resultsContainer.innerHTML = allTheResults.join('')  
-  
+  resultsContainer.innerHTML = allTheResults.join('')   
+
 } 
 submitButton.addEventListener('click', createResults); 
 
 
-//I will store questions in a seperate js.file and import them into index.js 
 
 
+/*
+function myFunction() {
+    document.querySelector(".test").style.color = "red";
+    console.log('query selector', document.querySelector(".test")); 
+    console.log('query selectorAll', document.querySelectorAll(".test"));
+}
+submitButton.addEventListener('click', myFunction); 
+  
+
+
+
+makeBoxesGreen = () => {
+    const greenBox = []; 
+    for (const {correctAnswer} of myQuestions) {
+       
+    }
+
+} 
+*/

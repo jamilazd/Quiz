@@ -3,14 +3,12 @@
 
 
 html {
-    background-image:url(food.png); 
+    background-image:url(background1.png); 
 }
 
 body {
     height: 100%;
-    margin: 0;
-    padding: 0;
-    background-image:url(background1.png); 
+    margin: 100px;
 
 }
 
@@ -18,7 +16,7 @@ body {
     width: 110px; 
     position: relative; 
     bottom: 165px;  
-    left: 150px;  
+    left: 40px;  
     border-width: 2px; 
     border-style: solid;
     border-color: #933300; 
@@ -30,7 +28,7 @@ body {
     width: 110px; 
     position: relative; 
     bottom: 163px;  
-    left: 900px;  
+    left: 810px;  
     border-width: 2px; 
     border-style: solid;
     border-color: #933300; 
@@ -54,9 +52,9 @@ h1 {
 .quiz {
     background-image:url('background.png'); 
     font-family:'Merriweather', serif;
-    font-size: 18px;
+    font-size: 25px;
     color: #000000; 
-    text-align: left; 
+    text-align: center; 
     padding: 30px 50px 60px 50px;
     position: relative; 
     bottom: 5px; 
@@ -65,45 +63,52 @@ h1 {
     border-color: #933300; 
     border-radius: 50px; 
     box-shadow: 10px 10px 5px rgb(210, 180, 141);
-
 }
 
 .submit {
     background-color: #fe8c62;
     font-family: 'Playfair Display', serif;
-    font-size: 25px; 
-    color:   ; 
+    font-size: 20px; 
+    font-weight: bold;
+    color: #933300; 
     text-align: center; 
     padding: 15px;
     position: relative; 
-    left: 30px; 
+    left: 900px;
+    bottom: 100px; 
     border-width: 2px; 
     border-style: solid;
     border-radius: 50px;
     border-color:#933300; 
-
+    border-radius: 50px; 
+    box-shadow: 10px 10px 5px rgb(210, 180, 141);
 }
-
-
-.resultsOverlay {
-  background-image:url('background1.png'); 
-  width: 900px;
-  height: 630px;
-  padding: 0px, 10px, 0px, 10px;
-  position: relative;
-  top: 300px; 
-  left: 650px; 
-  font-family: 'Playfair Display', serif;
-  font-size: 31px; 
-  font-weight: bold; 
-  color:#6C2702;
-  text-align: center;
-  line-height: 0.5em; 
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%); 
-    
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 1%;
+    height: 1%; 
 }
-
-
-    
- 
+  
+.modal-content {
+    background-image:url(background1.png); 
+    font-family:'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: bold; 
+    color: #933300; 
+    text-align: center;
+    margin: 1% auto; 
+    padding: 20px;
+    width: 80%; 
+    height: 95px; 
+    border-width: 2px; 
+    border-style: solid;
+    border-radius: 50px;
+    border-color:#933300; 
+    border-radius: 50px; 
+    box-shadow: 10px 10px 5px rgb(210, 180, 141);
+}
+  
