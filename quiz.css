@@ -12,35 +12,6 @@ body {
 
 }
 
-/* Add flexbox for the h1 and pic 1 & 2  */
-
-/* #pic1 {
-    width: 110px; 
-    position: relative; 
-    bottom: 165px;  
-    left: 40px;
-    border-width: 2px; 
-    border-style: solid;
-    border-color: #933300; 
-    border-radius: 50px; 
-
-}
-
-#pic2 {
-    width: 110px; 
-    position: relative; 
-    bottom: 163px;  
-    left: 810px;  
-    border-width: 2px; 
-    border-style: solid;
-    border-color: #933300; 
-    border-radius: 50px; 
-
-}
-<img id="pic1" src="fork.png" alt="Picture of knife and fork">
-<img id="pic2" src="fork.png" alt="Picture of knife and fork">
-*/
-
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -115,7 +86,7 @@ h1 {
 .modal-content {
     background-image:url(background1.png); 
     font-family:'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold; 
     color: #933300; 
     text-align: center;
