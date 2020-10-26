@@ -12,11 +12,13 @@ body {
 
 }
 
-#pic1 {
+/* Add flexbox for the h1 and pic 1 & 2  */
+
+/* #pic1 {
     width: 110px; 
     position: relative; 
     bottom: 165px;  
-    left: 40px;  
+    left: 40px;
     border-width: 2px; 
     border-style: solid;
     border-color: #933300; 
@@ -35,15 +37,16 @@ body {
     border-radius: 50px; 
 
 }
-
+<img id="pic1" src="fork.png" alt="Picture of knife and fork">
+<img id="pic2" src="fork.png" alt="Picture of knife and fork">
+*/
 
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 140px; 
-    text-align: center; 
     color:#fe8c62;  
-    position: relative; 
-    top: 70px;  
+    display: flex; 
+    justify-content: center;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #933300;
 
@@ -75,7 +78,7 @@ h1 {
     padding: 15px;
     position: relative; 
     left: 900px;
-    bottom: 100px; 
+    bottom: 100px;
     border-width: 2px; 
     border-style: solid;
     border-radius: 50px;
