@@ -5,7 +5,7 @@ const submitButton = document.querySelector(".submit");
 const myQuestions = [
 
 	{
-		question: 'Gruyere is a cheese from which country?',
+		question: '1) Gruyere is a cheese from which country?',
 		answerA:  'Switzerland',
 		answerB:  'Austria',
         answerC:  'France',
@@ -14,7 +14,7 @@ const myQuestions = [
     },
     
 	{
-		question: 'Which of these is NOT a type of mushroom?',
+		question: '2) Which of these is NOT a type of mushroom?',
         answerA: 'King Oyster',
         answerB: 'Chicken of the woods',
         answerC: `Lion's mane`, 
@@ -23,7 +23,7 @@ const myQuestions = [
     },
     
     {
-        question: 'Bobotie is the national dish of which country?',
+        question: '3) Bobotie is the national dish of which country?',
         answerA: 'South Africa',
         answerB: 'Ethiopia',
         answerC: 'Kenya', 
@@ -32,16 +32,7 @@ const myQuestions = [
     }, 
 
     {
-        question: 'Which of these chocolate bars does NOT contain nuts?',
-        answerA: 'Picnic',
-        answerB: 'Double Decker',
-        answerC: 'Toblerone', 
-        correctAnswer: 'B',
-
-    },
-
-    {
-        question: 'Which flower does the spice Saffron come from?',
+        question: '4) Which flower does the spice Saffron come from?',
         answerA: 'Poppy',
         answerB: 'Orchid',
         answerC: 'Crocus',
@@ -66,6 +57,7 @@ function createQuiz () {
 
              <input type="checkbox" name="checkbox" value="Answer3">
              <label for="checkbox">${questions.answerC}</label> 
+             <hr>
            </div>`
         ); 
            
