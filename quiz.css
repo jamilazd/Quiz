@@ -41,6 +41,22 @@ body {
 <img id="pic2" src="fork.png" alt="Picture of knife and fork">
 */
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #933300;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 140px; 

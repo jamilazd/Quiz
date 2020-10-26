@@ -1,3 +1,4 @@
+//need to import questions into js file 
 const myQuestions = [
 
 	{

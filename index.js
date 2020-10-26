@@ -108,14 +108,6 @@ submitButton.addEventListener('click', createResults);
 //document.querySelector().style.color = "#ff0000";
 
 
-
-
-    
-   
-
-
-
-
 /* function myFunction() {
     document.querySelector('.test').style.color = "red";
 }
