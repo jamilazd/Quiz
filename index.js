@@ -9,7 +9,7 @@ const myQuestions = [
 		answerA:  'Switzerland',
 		answerB:  'Austria',
         answerC:  'France',
-        correctAnswer: 'C', 
+        correctAnswer: 'France', 
         
     },
     
@@ -18,7 +18,7 @@ const myQuestions = [
         answerA: 'King Oyster',
         answerB: 'Chicken of the woods',
         answerC: `Lion's mane`, 
-        correctAnswer: 'B', 
+        correctAnswer: 'Chicken of the woods', 
 
     },
     
@@ -27,7 +27,7 @@ const myQuestions = [
         answerA: 'South Africa',
         answerB: 'Ethiopia',
         answerC: 'Kenya', 
-		correctAnswer: 'A', 
+		correctAnswer: 'South Africa', 
 
     }, 
 
@@ -36,7 +36,7 @@ const myQuestions = [
         answerA: 'Poppy',
         answerB: 'Orchid',
         answerC: 'Crocus',
-        correctAnswer: 'C',
+        correctAnswer: 'Crocus',
 
     }, 
 
