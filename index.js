@@ -1,6 +1,7 @@
 const quizContainer = document.querySelector(".quiz"); 
-const resultsContainer = document.querySelector(".modal-content"); 
 const submitButton = document.querySelector(".submit");
+const resultsContainer = document.querySelector(".modal-content"); 
+
 
 const myQuestions = [
 
@@ -89,23 +90,18 @@ submitButton.addEventListener('click', createResults);
 
 
 
-
-/*makeGreen = () => {
-    for(const {correctAnswer} of myQuestions) {
-        console.log(`${correctAnswer}`)
+/*
+function showResults () {
+    const userAnswer = (myQuestions.answers); 
+    if (userAnswer === correctAnswer) {
+        correctAnswer.style.color = 'lightgreen';
     }
-}*/ 
 
-//submitButton.addEventListener('click', makeGreen); 
-//document.querySelector().style.color = "#ff0000";
-
-
-/* function myFunction() {
-    document.querySelector('.test').style.color = "red";
 }
-submitButton.addEventListener('click', myFunction); 
-*/ 
-
-
-
+	
+function colorCorrectAnswer() {
+    myQuestions.style.color = "red";
+}
+submitButton.addEventListener('click', colorCorrectAnswer); 
+*/
 
